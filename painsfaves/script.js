@@ -46,15 +46,18 @@ function makeSongElem(url,name) {
 
 
 function resizeGap() {
-    let gap = 0
+    let START_GAP = 0
+    const STEP_GAP = 0.1;
+
+    let gap = START_GAP
     elemList.style.gap = `${gap}px`
     // while(elemList.offsetHeight < window.innerHeight) {
     for(let i=0; i<100000; i++) {
-    if(!(document.body.offsetHeight < window.innerHeight - 30)) {break;}
-        gap++
+    if(!(document.body.offsetHeight < window.innerHeight - 0)) {break;}
+        gap+=STEP_GAP
         elemList.style.gap = `${gap}px` 
     } 
-    gap--
+    gap-=STEP_GAP
     elemList.style.gap = `${gap}px` 
 }
 resizeGap()
