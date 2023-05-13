@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+html body{
+    margin:0;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+.songDiv{
+    font: 30px arial;
+}
+.songLink{
+
+}
+
+pltitle{
+    font:20px arial;
+    font-style: italic;
+    background-color:blue;
+    color:white;
+    padding-top:10px;
+}
