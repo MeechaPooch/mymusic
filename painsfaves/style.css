@@ -4,7 +4,8 @@ booty{
     align-items: center;
     width: max-content;
 
-    background-color: rgba(0, 94, 255, 0.121);
+    /* background-color: rgba(0, 94, 255, 0.121); */
+    background-image: linear-gradient(rgba(0, 174, 255, 0.138),rgba(0, 153, 255, 0.114));
     margin-right: 20vw;
     /* padding-bottom: 20px; */
 
